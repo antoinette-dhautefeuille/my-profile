@@ -1,0 +1,139 @@
+body{
+  background-color: #E8E8E8;
+  color: #413333;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: <300>;
+  font-size: 17px;
+}
+
+h1,h2{
+   color: #8B9A6E;
+   font-family: "Montserrat", sans-serif;
+}
+
+h1{
+  font-size:30px;
+  font-weight: <500>;
+  display: grid;
+  place-items: center; /* Centre horizontalement et verticalement */
+}
+
+h2{
+  font-size: 19px;
+  font-weight: <200>;
+}
+
+a {
+  color: #2C2C2C;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #8B9A6E;
+}
+
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+div {
+  margin: 30px;
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white{
+  background-color: #FFFFFF;
+  padding : 40px;
+  box-shadow: 0px 10px 30x rgba(0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align : center;
+}
+
+.card-white ul {
+  list-style-position: inside;
+  padding-left: 0;
+  display: inline-block;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.card-white ul li {
+  margin-bottom: 8px;
+}
+
+.img-circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  transition: all 0.3s ease;
+}
+
+.img-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-green{
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #8B9A6E;
+  color: white;
+  padding : 15px 20px;
+  border-radius : 4px;
+  font-family: "Montserrat", sans-serif;;
+}
+
+.btn-green:hover {
+  background-color: #413333;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline a {
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #8B9A6E;
+  font-style: normal;
+  transition: color 0.3s ease;
+}
+
+/* Effet au survol */
+.list-inline a:hover {
+  transform: translateY(-5px);
+}
+
+.list-inline a:hover i {
+  color: #413333;
+}
+
+#description {
+  margin-bottom: 30px;
+}
